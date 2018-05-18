@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-github-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dphengsiaroun/jenkins-github-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dphengsiaroun/jenkins-github-nodejs/issues"
+  },
+  "homepage": "https://github.com/dphengsiaroun/jenkins-github-nodejs#readme"
+}
