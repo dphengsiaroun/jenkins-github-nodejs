@@ -5,7 +5,7 @@ Ce tutoriel a pour but de faire une intégration de Jenkins avec Github, Node.js
 # Prerequisites
 
 1. Installer Jenkins (https://jenkins.io/download/)
-ou lancer cette commande pour instancier un docker Jenkins
+ou lancer cette commande pour démarrer un docker Jenkins
 ```
 docker container run --rm --name jenkins -p 8080:8080 --volume `pwd`/jenkins:/var/jenkins_home jenkins/jenkins:lts
 ```
