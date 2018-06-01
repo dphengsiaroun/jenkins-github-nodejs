@@ -1,7 +1,6 @@
 node {
     try {
         def commit_id
-        qsdfqsfqsdf
         notifyBuild('STARTED') // Slack notify started
         stage('Preparation') {
             checkout scm
