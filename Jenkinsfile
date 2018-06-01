@@ -1,7 +1,8 @@
 node {
     try {
         def commit_id
-        notifyBuild('STARTED')
+        qsdfqsfd
+        notifyBuild('STARTED') // Slack notify started
         stage('Preparation') {
             checkout scm
         }
@@ -21,7 +22,7 @@ node {
     throw e
   } finally {
     // Success or failure, always send notifications
-    notifyBuild(currentBuild.result)
+    notifyBuild(currentBuild.result)  // Slack notify finished
   }
 }
 
