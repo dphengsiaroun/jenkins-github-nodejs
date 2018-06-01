@@ -17,7 +17,7 @@ $ cd Jenkins
 $ docker container run --rm --name jenkins -p 8080:8080 --volume `pwd`/jenkins:/var/jenkins_home jenkins/jenkins:lts
 ```
 
-Allez sur l'interface Jenkins (http://localhost:8080) et suivez les étapes pour l'installation de Jenkins.
+Allez sur l'interface Jenkins (http://localhost:8080) et suivez les étapes de l'installation de Jenkins.
 
 
 
