@@ -1,7 +1,6 @@
 node {
     try {
         def commit_id
-        qsdf
         notifyBuild('STARTED') // Slack notify started
         stage('Preparation') {
             checkout scm
@@ -18,7 +17,7 @@ node {
         }
     } catch (e) {
     // If there was an exception thrown, the build failed
-    currentBuild.result = e
+    currentBuild.result = "FAILED"
     throw e
   } finally {
     // Success or failure, always send notifications
