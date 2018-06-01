@@ -5,7 +5,7 @@ node {
    }
    stage('install') {
      nodejs(nodeJSInstallationName: 'NodeJS9') {
-       sh 'npm install ms -S'
+       sh 'npm install'
      }
    }
    stage('test') {
