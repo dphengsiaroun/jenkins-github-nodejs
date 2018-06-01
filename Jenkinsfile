@@ -1,11 +1,11 @@
 node {
    def commit_id
    stage('Preparation') {
-    //  checkout scm
+     checkout scm
    }
    stage('install') {
      nodejs(nodeJSInstallationName: 'NodeJS9') {
-       sh 'npm install --only=dev'
+       sh 'npm install ms -S'
      }
    }
    stage('test') {
